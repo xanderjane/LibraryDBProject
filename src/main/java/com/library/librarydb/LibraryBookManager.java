@@ -230,8 +230,8 @@ public class LibraryBookManager extends Application {
 class DatabaseManager {
     // change db user name and pass to match prof requirements
     private static final String URL = "jdbc:mysql://localhost:3306/librarydb";
-    private static final String USER = "root";
-    private static final String PASSWORD = "root123";
+    private static final String USER = "scott";
+    private static final String PASSWORD = "tiger";
 
     private Connection connection;
 
